@@ -26,13 +26,14 @@ $(function() {
     ],
 
     "template": [
+        "we need to be able to @action in @new ways. @company isn't enough. let's fucking make this happen.",
         "let's fucking @revolutionize @industry by @verb @buzzword",
         "our app fucking targets @adjective @socialgroup by providing @new ways to @action with @buzzword",
         "How about we fucking @combination @company and @company? We'd be the next @company",
         "let's fucking make something like @company, but for @adjective @socialgroup",
         "we should connect @adjective @socialgroup and @adjective @socialgroup with @buzzword",
         "i'm a @adjective programmer with @stack @language experience, who wants to be on my fucking team?",
-        "@company is old news. our new app would @revolutionize @buzzword for @adjective @socialgroup",
+        "@company is old news. our new app would @revolutionize @industry for @adjective @socialgroup",
         "we should fucking make @mobile app to @revolutionize @industry",
     ],
 
@@ -314,6 +315,7 @@ $(function() {
     ],
 
     "buzzword": [
+        "one weird trick",
         "cloud computing",
         "the cloud",
         "machine learning",
@@ -331,7 +333,12 @@ $(function() {
         "a/b testing",
         "productivity",
         "rfid",
-        "restful apis"
+        "restful apis",
+        "apis",
+        "love",
+        "kickstarter",
+        "venture capital",
+        "viral marketing"
     ],
 
     "mobile": [
@@ -344,6 +351,7 @@ $(function() {
         "an iphone",
         "a pebble",
         "a samsung gear",
+        "a windows phone"
     ]
 
   });

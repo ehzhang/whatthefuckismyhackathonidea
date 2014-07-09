@@ -8,8 +8,19 @@
 		<link rel="apple-touch-icon" href="images/custom_icon.png"/>
 		<link rel="shortcut icon" href="images/favicon.png"/>
 		<link rel="stylesheet" href="styles/main.css" />
+
+        
 	</head>
 	<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=690979234245476&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+
 		<div id="wrapper">
 		    <header>
 		        <h1>What The Fuck Is My Hackathon Idea?</h1>
@@ -27,8 +38,8 @@
 		    </article>
 		    <aside>
 		        <ul id="share">
-		            <li id="share-facebook"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwhatthefuckismymashup.com&amp;layout=button_count&amp;show_faces=true&amp;width=80&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></li>
-		            <li id="share-twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://whatthefuckismymashup.com" data-count="horizontal" data-via="soulwire">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
+                  <li id="share-facebook"><div class="fb-like" data-href="http://whatthefuckismyhackathonidea.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></li>
+                    <li id="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-via="ehzhang">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
 		        </ul>
 		    </aside>
 		    <footer>

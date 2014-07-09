@@ -27,7 +27,7 @@ $(function() {
 
     "template": [
         "let's fucking @revolutionize @industry by @verb @buzzword",
-        "our app fucking targets @adjective @socialgroup by providing @new ways to @action by with @buzzword",
+        "our app fucking targets @adjective @socialgroup by providing @new ways to @action with @buzzword",
         "How about we fucking @combination @company and @company? We'd be the next @company",
         "let's fucking make something like @company, but for @adjective @socialgroup",
         "we should connect @adjective @socialgroup and @adjective @socialgroup with @buzzword",
